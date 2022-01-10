@@ -25,7 +25,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href={process.env.PUBLIC_URL + '/assets/files/KEVIN-Resume-PtBr.pdf'} download>
+            <a href="/assets/files/KEVIN-Resume-PtBr.pdf" download>
               <span>
                 <img src="./assets/icons/curriculum.png" alt="curriculum" />
               </span>
