@@ -1,0 +1,76 @@
+.introduction {
+  margin-top: 0;
+  background-color: var(--color-blue-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vw;
+}
+
+.indroduction-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction h1 {
+  padding: 1rem;
+  color: var(--font-color-tertiary);
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.background {
+  background-image: url("../../../assets/stacked-waves.svg");
+  width: 100vw;
+}
+
+.spacer {
+  aspect-ratio: 1920/300;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.after-introduction {
+  height: 15rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 1.75rem;
+  box-shadow: 1px 1px 4px var(--font-color-secondary);
+}
+
+.btn-contact {
+  background-color: rgba(255, 82, 19, 0.95);
+  color: var(--font-color-tertiary);
+  font-size: 1.2rem;
+  font-weight: 700;
+  outline-offset: -10px;
+  outline: 3px solid var(--font-color-tertiary);
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 769px) {
+  .name {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  .btn-contact {
+    font-size: 1.5rem;
+  }
+}

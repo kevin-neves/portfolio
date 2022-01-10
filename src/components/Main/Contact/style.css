@@ -1,0 +1,22 @@
+.forms-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin-bottom: 4rem;
+}
+
+.forms-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--font-color-primary);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  text-shadow: var(--text-shadow);
+  padding-top: 0.75rem;
+}
+
+.contact-container {
+  box-shadow: var(--box-shadow-big);
+}

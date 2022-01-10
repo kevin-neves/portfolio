@@ -1,0 +1,44 @@
+.invisible {
+  display: none;
+}
+
+form {
+  width: 100vw;
+  padding: 3rem 0;
+  background: var(--color-blue-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+form input, form textarea {
+  width: 80vw;
+  padding: 0.5rem 1rem;
+  outline-color: var(--color-blue-secondary);
+  border: none;
+}
+
+form button {
+  padding: 1rem 2rem;
+  border-radius: 1.75rem;
+  box-shadow: 1px 1px 4px var(--font-color-secondary);
+  background-color: rgb(255, 82, 19);
+  color: var(--font-color-tertiary);
+  font-size: 1.2rem;
+  font-weight: 700;
+  outline-offset: -10px;
+  outline: 3px solid var(--font-color-tertiary);
+  margin: 1rem 0;
+}
+
+
+@media screen and (min-width: 769px) {
+  form {
+    max-width: 800px;
+  }
+
+  form input, form textarea {
+    max-width: 600px;
+  }
+}
