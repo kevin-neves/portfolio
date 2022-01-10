@@ -1,5 +1,4 @@
 import React from 'react';
-import pdf from '../../assets/Files/KEVIN-Resume-PtBr.pdf';
 
 import './styles.css';
 
@@ -26,7 +25,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href={pdf} target="_blank" rel="noreferrer">
+            <a href={process.env.PUBLIC_URL + '/assets/files/KEVIN-Resume-PtBr.pdf'} target="_blank" rel="noreferrer">
               <span>
                 <img src="./assets/icons/curriculum.png" alt="curriculum" />
               </span>
