@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href={pdf}>
+            <a href={pdf} target="_blank" rel="noreferrer">
               <span>
                 <img src="./assets/icons/curriculum.png" alt="curriculum" />
               </span>
