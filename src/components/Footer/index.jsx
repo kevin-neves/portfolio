@@ -25,7 +25,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a target="_blank" rel="noreferrer">
+            <a href="./files/KEVIN-Resume-PtBr.pdf" target="_blank" rel="noreferrer">
               <span>
                 <img src="./assets/icons/curriculum.png" alt="curriculum" />
               </span>

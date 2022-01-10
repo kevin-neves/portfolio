@@ -10,7 +10,7 @@ const Header = ({ myRef }) => {
     <>
       <header onScroll={scroll}>
         <div className="logo" onClick={scrollToContact}>
-          <img src="./assets/logo.png" alt="" />
+          <img src="./assets/main-logo.svg" alt="" />
         </div>
         <div className="nav-container">
           <Navigation myRef={myRef} />
