@@ -23,3 +23,16 @@
   background-color: var(--color-blue-secondary);
   box-shadow: var(--box-shadow-big);
 }
+
+@media screen and (min-width: 769px) {
+
+  .project-container {
+    display: flex;
+  }
+
+  /* .project-container {
+    flex-direction: row-reverse;
+  } */
+
+}
+

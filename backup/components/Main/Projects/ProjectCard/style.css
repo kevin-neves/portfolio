@@ -12,6 +12,7 @@
   flex-direction: column;
   align-items: center;
   height: fit-content;
+  margin-bottom: 1.5rem;
 }
 
 .project h1 {
@@ -20,31 +21,13 @@
   color: var(--font-color-primary);
 }
 
-.title-pc {
-  display: none;
-}
-
-.project-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .project-img img{
   width: 80vw;
-  max-width: 400px;
   box-shadow: var(--box-shadow-big) ;
 }
 
-.project-details {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.project-details p {
-  padding: 0.5rem 5vw;
+.projects-details p {
+  padding: 0.5rem 10vw;
   text-align: center;
 }
 
@@ -73,15 +56,4 @@
 
 .project-links img {
   width: 24px;
-}
-
-@media screen and (min-width: 769px) {
-  .title-mobile {
-    display: none;
-  }
-
-  .title-pc {
-    display: flex;
-  }
-
 }

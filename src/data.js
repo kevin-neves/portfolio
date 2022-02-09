@@ -58,5 +58,4 @@ export const PROJECTS = {
   BR: {
     title: 'PROJETOS',
   },
-}
-
+};

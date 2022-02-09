@@ -2,8 +2,6 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import P from 'prop-types';
 
-import './style.css';
-
 import { projects } from '../../../projectsData';
 
 const Projects = ({ myRef }) => {
@@ -12,7 +10,7 @@ const Projects = ({ myRef }) => {
       <h1 className="projects-title">PROJECTS</h1>
       <div className="projects-container">
         {projects.map((project, index) => {
-          return <ProjectCard key={index} projectInfo={project} index={index} />;
+          return <ProjectCard key={index} projectInfo={project} />;
         })}
       </div>
     </section>
