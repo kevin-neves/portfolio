@@ -1,5 +1,12 @@
 export const projects = [
   {
+    name: 'React Ecommerce',
+    description: 'IN DEVELOPMENT! React ecommerce webpage.',
+    imageSrc: './assets/ecommerce.png',
+    githubLink: 'https://github.com/kevin-neves/react-ecommerce',
+    liveServerLink: 'https://react-ecommerce-kf83ylevm-kevin-neves.vercel.app/',
+  },
+  {
     name: 'React PWA Weather App',
     description:
       'Application that shows current weather information about a given city. Created with React, applying concepts of Progressive Web Application, and it can be installed on mobile phones.',
