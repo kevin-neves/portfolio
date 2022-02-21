@@ -10,7 +10,7 @@ const Introduction = ({ myRef }) => {
       <section className="introduction" ref={(element) => (myRef.current[0] = element)}>
         <div className="indroduction-container">
           <h1 className="name">Kevin Jr. A. Neves</h1>
-          <h1 className="subtitle">Web developer with a passion for learning everything</h1>
+          <h1 className="subtitle">Web Developer with knowledge in Data Science</h1>
         </div>
         <div>
           <button type="button" className="btn btn-contact" onClick={() => scrollToContact()}>

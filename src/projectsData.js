@@ -1,5 +1,13 @@
 export const projects = [
   {
+    name: 'Netflix Clone using Angular2+',
+    description:
+      'Netflix clone that contains Home, Login, Users and Movies pages and save a key that is stored in the local storage of the browser for log in validation.',
+    imageSrc: './assets/netflix-clone.png',
+    githubLink: 'https://github.com/kevin-neves/netflix-clone',
+    liveServerLink: 'https://netflix-clone-1nvtqhrln-kevin-neves.vercel.app/',
+  },
+  {
     name: 'React Ecommerce',
     description:
       'IN DEVELOPMENT! React ecommerce webpage. Next Features: Cart, Products, Sign in and Sign up pages and Authentication',

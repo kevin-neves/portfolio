@@ -12,7 +12,10 @@ const AboutMe = ({ myRef }) => {
           <img src="./assets/web-dev.jpg" alt="" />
         </div>
         <div className="about-text-container">
-          <h1 className="about-text">TL/DR: 9 years math teacher in career transition to become a developer.</h1>
+          <h1 className="about-text">
+            I&apos;m a Chemical Engineer and 9 years Math teacher in career transition. Currently studing React and
+            Python&apos;s ecosystem for Data Science and Data Analysis.
+          </h1>
         </div>
       </div>
     </section>
