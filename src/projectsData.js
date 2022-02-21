@@ -1,7 +1,8 @@
 export const projects = [
   {
     name: 'React Ecommerce',
-    description: 'IN DEVELOPMENT! React ecommerce webpage.',
+    description:
+      'IN DEVELOPMENT! React ecommerce webpage./nNext Features:/n- Cart, Products, Sign in and Sign up pages/n- Authentication',
     imageSrc: './assets/ecommerce.png',
     githubLink: 'https://github.com/kevin-neves/react-ecommerce',
     liveServerLink: 'https://react-ecommerce-kf83ylevm-kevin-neves.vercel.app/',
